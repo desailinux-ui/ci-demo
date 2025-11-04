@@ -2,7 +2,7 @@
   "name": "ci-demo",
   "version": "1.0.0",
   "scripts": {
-    "test": "echo \"✅ Test passed!\"",
+    "test": "echo \"❌ Test failed!\" && exit 1",
     "build": "echo \"🏗️ Building app...\""
   }
 }
